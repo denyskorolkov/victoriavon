@@ -1,0 +1,35 @@
+.Grid_wrapper__2dNwN {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.Grid_activeDrag__3-f50 {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.Grid_activeDrag__3-f50:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.Grid_item__2siJS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  visibility: hidden;
+}
+.Grid_item__2siJS[style] {
+  visibility: visible;
+}
+.Grid_debug__3kkmD {
+  overflow: visible;
+  background: #d3d3d3;
+}
+.Grid_debug__3kkmD .Grid_item__2siJS {
+  color: #000;
+  background: red;
+  border-radius: 50%;
+}
